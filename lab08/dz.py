@@ -6,3 +6,4 @@ if word in text:
     print(f"Слово '{word}' найдено в тексте. Позиция начала слова: {position}")
 else:
     print(f"Слово '{word}' не найдено в тексте.")
+ 
