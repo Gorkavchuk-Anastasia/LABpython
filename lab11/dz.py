@@ -1,0 +1,16 @@
+import turtle
+size = int(input("Введите длину стороны: \n"))
+polovina = size/2
+turtle.penup()
+turtle.right(180)
+turtle.forward(polovina)
+turtle.left(90)
+turtle.pendown()
+turtle.forward(size)
+turtle.left(90)
+turtle.forward(size)
+turtle.left(90)
+turtle.forward(size)
+turtle.left(90)
+turtle.forward(size)
+turtle.exitonclick()
